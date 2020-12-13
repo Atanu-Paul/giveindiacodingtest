@@ -3,10 +3,12 @@ const express = require("express");
 const router = express.Router();
 
 //importing and mounting all the controller methods to the routes
-const { welcome } = require("../controller");
+const { welcome, listAllAccounts, transferMoney } = require("../controller");
 
 //defining all the routes
 router.get("/", welcome);
+router.get("/accounts/list", listAllAccounts);
+router.post("/transfer", transferMoney);
 
 //exporting the router
 module.exports = router;
