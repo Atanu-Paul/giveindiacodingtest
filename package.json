@@ -1,0 +1,34 @@
+{
+  "name": "giveindia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atanu-Paul/giveindiacodingtest.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Atanu Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atanu-Paul/giveindiacodingtest/issues"
+  },
+  "homepage": "https://github.com/Atanu-Paul/giveindiacodingtest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
